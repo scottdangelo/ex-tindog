@@ -7,6 +7,17 @@ h1 {
   font-size: 3.5rem;
   line-height: 1.5;
 }
+h2 {
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 3rem;
+}
+h3 {
+    font-family: "Montserrat-Black";
+}
+p {
+    color: gray;
+}
 #title {
   background-color: #ff4c68;
   color: #fff;
@@ -41,5 +52,42 @@ margin: 5% 3% 5% 0;
 width: 60%;
 }
 .fab-1 {
+    color: #ef8172;
     font-size: 62px;
+    margin-bottom: 1rem;
+}
+.fab-1:hover {
+    color: #ff4c68;
+}
+
+/* Features */
+#features{
+    padding: 7% 15%;
+}
+.feat-box {
+    padding: 5%;
+    text-align: center;
+}
+/* Testimonials */
+#testimonials {
+    background-color: #ef8172;
+    color:#fff;
+    text-align: center;
+}  
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.press-logo {
+    margin: 15px 15px 50px;
+    width: 15%;
+}
+.carousel-item {
+    padding: 7% 15%;
 }
